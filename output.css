@@ -720,6 +720,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -839,6 +844,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-11 {
   height: 2.75rem;
 }
@@ -851,6 +860,10 @@ video {
   height: 1.25rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .w-11 {
   width: 2.75rem;
 }
@@ -860,10 +873,6 @@ video {
 }
 
 .w-full {
-  width: 100%;
-}
-
-.w-\[100\%\] {
   width: 100%;
 }
 
@@ -2017,6 +2026,21 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
