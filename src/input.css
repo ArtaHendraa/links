@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .transparant-color {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(235, 238, 241);
+  }
+
+  .button-links {
+    @apply flex items-center justify-center gap-1 w-full max-w-2xl  duration-200 bg-white rounded-2xl h-14 active:scale-100 hover:scale-[102%];
+  }
+}
